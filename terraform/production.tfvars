@@ -4,12 +4,12 @@ ssm_deployment_parameters_path_prefix = "/grants_ingest/deploy-config"
 lambda_binaries_autobuild             = false
 lambda_default_log_retention_in_days  = 30
 lambda_default_log_level              = "INFO"
-ffis_ingest_email_address             = "ffis-ingest@grants.usdigitalresponse.org"
+ffis_ingest_email_address             = "ffis-ingest@grants.navapbc.com"
 
-datadog_enabled          = true
+datadog_enabled          = false
 datadog_draft            = false
-datadog_monitors_enabled = true
+datadog_monitors_enabled = false
 datadog_monitor_notification_handles = [
-  "thendrickson@usdigitalresponse.org",
-  "asridhar@usdigitalresponse.org",
+  #"thendrickson@usdigitalresponse.org",
+  #"asridhar@usdigitalresponse.org",
 ]

@@ -1,13 +1,13 @@
 namespace                             = "grants_ingest"
 environment                           = "staging"
 ssm_deployment_parameters_path_prefix = "/grants_ingest/deploy-config"
-datadog_enabled                       = true
+datadog_enabled                       = false
 lambda_binaries_autobuild             = false
 lambda_default_log_retention_in_days  = 30
 lambda_default_log_level              = "INFO"
 datadog_draft                         = true
-datadog_monitors_enabled              = true
-ffis_ingest_email_address             = "ffis-ingest@staging.grants.usdr.dev"
+datadog_monitors_enabled              = false
+ffis_ingest_email_address             = "ffis-ingest@staging.grants.navapbc.com"
 
 // Only defined in staging
 datadog_metrics_metadata = {

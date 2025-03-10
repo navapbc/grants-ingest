@@ -22,7 +22,7 @@ variable "version_identifier" {
 variable "git_repository_url" {
   type        = string
   description = "URL for the repository that provides this service."
-  default     = "github.com/usdigitalresponse/grants-ingest"
+  default     = "github.com/navapbc/grants-ingest"
 }
 
 variable "git_commit_sha" {
