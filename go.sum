@@ -49,8 +49,8 @@ github.com/aws/aws-sdk-go-v2/credentials v1.17.16 h1:7d2QxY83uYl0l58ceyiSpxg9bSb
 github.com/aws/aws-sdk-go-v2/credentials v1.17.16/go.mod h1:Ae6li/6Yc6eMzysRL2BXlPYvnrLLBg3D11/AmOjw50k=
 github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.18.7 h1:XUU8kEvb2hJd2z5uu/opq3byWwPrl9wH/jsVTWJ7IhM=
 github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.18.7/go.mod h1:mLzHwUsn6O03hXf0wNhEy1ICdDdDBnCPdWlM3t63aQo=
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.20 h1:AvAKoZa3S2K/Z/H1wC3Qjfuk8r0wYybPppahzoDfD4s=
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.20/go.mod h1:Yx3vUgyvGqLzyKvViwxwOHHnO5/8r0UYjgIHToEY+Ys=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.73 h1:lc9WLGv9UOmL8/8Ylxm6TSa4F7qLxBzAe6iGVJZtF3U=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.73/go.mod h1:Xd+5NylZMjkw6IxjqFtb3GjJqZ3fahbHOeTDI+yVFeQ=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.3 h1:dQLK4TjtnlRGb0czOht2CevZ5l6RSyRWAnKeGd7VAFE=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.3/go.mod h1:TL79f2P6+8Q7dTsILpiVST+AL9lkF6PPGI167Ny0Cjw=
 github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.16.21 h1:1v8Ii0MRVGYB/sdhkbxrtolCA7Tp+lGh+5OJTs5vmZ8=
