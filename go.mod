@@ -28,7 +28,7 @@ require (
 	github.com/posener/complete v1.2.3
 	github.com/stretchr/testify v1.9.0
 	github.com/willabides/kongplete v0.4.0
-	github.com/xuri/excelize/v2 v2.7.1
+	github.com/xuri/excelize/v2 v2.9.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.72.1
 )
 
@@ -100,7 +100,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/power-devops/perfstat v0.0.0-20220216144756-c35f1ee13d7c // indirect
 	github.com/richardlehane/mscfb v1.0.4 // indirect
-	github.com/richardlehane/msoleps v1.0.3 // indirect
+	github.com/richardlehane/msoleps v1.0.4 // indirect
 	github.com/riywo/loginshell v0.0.0-20200815045211-7d26008be1ab // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46 // indirect
@@ -114,8 +114,8 @@ require (
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.51.0 // indirect
-	github.com/xuri/efp v0.0.0-20231025114914-d1ff6096ae53 // indirect
-	github.com/xuri/nfp v0.0.0-20230919160717-d98342af3f05 // indirect
+	github.com/xuri/efp v0.0.0-20240408161823-9ad904a10d6d // indirect
+	github.com/xuri/nfp v0.0.0-20240318013403-ab9948c2c4a7 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.opentelemetry.io/collector/component v0.104.0 // indirect
 	go.opentelemetry.io/collector/config/configtelemetry v0.104.0 // indirect
