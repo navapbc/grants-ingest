@@ -3,7 +3,7 @@ module github.com/usdigitalresponse/grants-ingest
 go 1.23.2
 
 require (
-	github.com/DataDog/datadog-lambda-go v1.19.0
+	github.com/DataDog/datadog-lambda-go v1.22.0
 	github.com/Netflix/go-env v0.1.2
 	github.com/alecthomas/kong v1.9.0
 	github.com/aws/aws-lambda-go v1.47.0
@@ -68,7 +68,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.25.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.29.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.33.17 // indirect
-	github.com/aws/aws-xray-sdk-go v1.8.3 // indirect
+	github.com/aws/aws-xray-sdk-go/v2 v2.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
@@ -88,7 +88,7 @@ require (
 	github.com/hashicorp/go-sockaddr v1.0.2 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.17.5 // indirect
+	github.com/klauspost/compress v1.17.6 // indirect
 	github.com/lufia/plan9stats v0.0.0-20220913051719-115f729f3c8c // indirect
 	github.com/mitchellh/mapstructure v1.5.1-0.20231216201459-8508981c8b6c // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -113,7 +113,7 @@ require (
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	github.com/valyala/fasthttp v1.51.0 // indirect
+	github.com/valyala/fasthttp v1.52.0 // indirect
 	github.com/xuri/efp v0.0.0-20240408161823-9ad904a10d6d // indirect
 	github.com/xuri/nfp v0.0.0-20240318013403-ab9948c2c4a7 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
