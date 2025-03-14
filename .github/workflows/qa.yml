@@ -215,7 +215,7 @@ jobs:
         with:
           path: .tflint.d/plugins
           key: ${{ runner.os }}-tflint-${{ hashFiles('terraform/.tflint.hcl') }}
-      - uses: terraform-linters/setup-tflint@19a52fbac37dacb22a09518e4ef6ee234f2d4987 # v4.0.0
+      - uses: terraform-linters/setup-tflint@90f302c255ef959cbfb4bd10581afecdb7ece3e6 # v4.1.1
         name: Setup TFLint
         with:
           tflint_version: latest
