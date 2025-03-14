@@ -32,7 +32,7 @@ jobs:
       id-token: write
     uses: ./.github/workflows/aws-auth.yml
     with:
-      aws-region: us-west-2
+      aws-region: us-east-2
     secrets:
       role-to-assume: ${{ secrets.CI_ROLE_ARN }}
       gpg-passphrase: ${{ secrets.TFPLAN_SECRET }}
@@ -51,7 +51,7 @@ jobs:
       concurrency-group: run_terraform-staging
       bin-artifacts-key: ${{ needs.build-lambdas.outputs.lambda-artifacts-key }}
       bin-artifacts-path: ${{ needs.build-lambdas.outputs.lambda-artifacts-path }}
-      aws-region: us-west-2
+      aws-region: us-east-2
       environment-key: staging
       tf-backend-config-file: staging.s3.tfbackend
       tf-var-file: staging.tfvars
