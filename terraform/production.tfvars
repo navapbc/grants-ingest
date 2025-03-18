@@ -7,6 +7,7 @@ lambda_default_log_level              = "INFO"
 ffis_ingest_email_address             = "ffis-ingest@grants.navapbc.com"
 
 datadog_enabled            = false
+datadog_api_url            = "https://api.us5.datadoghq.com/"
 datadog_draft              = false
 datadog_monitors_enabled   = false
 datadog_dashboards_enabled = false
