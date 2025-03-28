@@ -16,7 +16,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.69
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.42.0
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.25.1
-	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.37.1
+	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.37.2
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.78.2
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.38.3
 	github.com/aws/smithy-go v1.22.3
