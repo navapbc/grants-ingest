@@ -9,15 +9,15 @@ require (
 	github.com/alecthomas/kong v1.10.0
 	github.com/aws/aws-lambda-go v1.47.0
 	github.com/aws/aws-sdk-go-v2 v1.36.3
-	github.com/aws/aws-sdk-go-v2/config v1.29.12
-	github.com/aws/aws-sdk-go-v2/credentials v1.17.65
+	github.com/aws/aws-sdk-go-v2/config v1.29.13
+	github.com/aws/aws-sdk-go-v2/credentials v1.17.66
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.18.8
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.75
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.69
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.71
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.42.0
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.25.1
 	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.37.2
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.79.0
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.79.1
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.38.3
 	github.com/aws/smithy-go v1.22.3
 	github.com/cenkalti/backoff/v4 v4.3.0
@@ -66,9 +66,9 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/kms v1.27.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sfn v1.24.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sns v1.26.5 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.25.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.0 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.33.17 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.25.3 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.33.18 // indirect
 	github.com/aws/aws-xray-sdk-go/v2 v2.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 // indirect
