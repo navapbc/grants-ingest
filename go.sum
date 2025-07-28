@@ -70,10 +70,10 @@ github.com/aws/aws-sdk-go-v2/config v1.29.18 h1:x4T1GRPnqKV8HMJOMtNktbpQMl3bIsfx
 github.com/aws/aws-sdk-go-v2/config v1.29.18/go.mod h1:bvz8oXugIsH8K7HLhBv06vDqnFv3NsGDt2Znpk7zmOU=
 github.com/aws/aws-sdk-go-v2/credentials v1.17.71 h1:r2w4mQWnrTMJjOyIsZtGp3R3XGY3nqHn8C26C2lQWgA=
 github.com/aws/aws-sdk-go-v2/credentials v1.17.71/go.mod h1:E7VF3acIup4GB5ckzbKFrCK0vTvEQxOxgdq4U3vcMCY=
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.19.5 h1:oUEqVqonG3xuarrsze1KVJ30KagNYDemikTbdu8KlN8=
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.19.5/go.mod h1:VNM08cHlOsIbSHRqb6D/M2L4kKXfJv3A2/f0GNbOQSc=
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.87 h1:oDPArGgCrG/4aTi86ij3S2PB59XXkTSKYVNQlmqRHXQ=
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.87/go.mod h1:ZeQC4gVarhdcWeM1c90DyBLaBCNhEeAbKUXwVI/byvw=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.19.6 h1:gBfrCR6IwAhmx+oCf9i9FJo1+Cxx5f0In+PaYQbkqbU=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.19.6/go.mod h1:zAO6MqUum/2yfE/Ig1LPPtzCBudQtrGBaz1gcNzgAoY=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.88 h1:1kk51DNpGN8LZ+lqUAMMPHFL330eQdPlEGqDqJr2sGw=
+github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.88/go.mod h1:6TCM3zSPyE8aLD8wlcB5fJ1DptcaWkbLH2VKClD2gPI=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.33 h1:D9ixiWSG4lyUBL2DDNK924Px9V/NBVpML90MHqyTADY=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.33/go.mod h1:caS/m4DI+cij2paz3rtProRBI4s/+TCiWoaWZuQ9010=
 github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.85 h1:AfpstoiaenxGSCUheWiicgZE5XXS5Fi4CcQ4PA/x+Qw=
@@ -86,8 +86,8 @@ github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3 h1:bIqFDwgGXXN1Kpp99pDOdKMTTb5d
 github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3/go.mod h1:H5O/EsxDWyU+LP/V8i5sm8cxoZgc2fdNR9bxlOFrQTo=
 github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.37 h1:XTZZ0I3SZUHAtBLBU6395ad+VOblE0DwQP6MuaNeics=
 github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.37/go.mod h1:Pi6ksbniAWVwu2S8pEzcYPyhUkAcLaufxN7PfAUQjBk=
-github.com/aws/aws-sdk-go-v2/service/dynamodb v1.44.0 h1:A99gjqZDbdhjtjJVZrmVzVKO2+p3MSg35bDWtbMQVxw=
-github.com/aws/aws-sdk-go-v2/service/dynamodb v1.44.0/go.mod h1:mWB0GE1bqcVSvpW7OtFA0sKuHk52+IqtnsYU2jUfYAs=
+github.com/aws/aws-sdk-go-v2/service/dynamodb v1.44.1 h1:UoEWyfuQ/yNOuDENk5nn+AgNCH2Y5yzQEv6YbTyhIV8=
+github.com/aws/aws-sdk-go-v2/service/dynamodb v1.44.1/go.mod h1:K1I47BjiTRX00pBxfJLYK80QFRcf6blev2wbjgC5Cyc=
 github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.26.1 h1:WD2RDt93+IgNvlxEKkx/b3BQrpw5G/YpDHvGXweO5wE=
 github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.26.1/go.mod h1:8ZWruWnVWtJwjSHEtMWFcI1W6L6PD6i+uKCJ9EiJBbE=
 github.com/aws/aws-sdk-go-v2/service/eventbridge v1.41.0 h1:6Yd6fn8F/wTObdPHQ4IRsHPAc7r9WzFLe6kHP3ymAw0=
@@ -96,8 +96,8 @@ github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.12.4 h1:CXV68E2
 github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.12.4/go.mod h1:/xFi9KtvBXP97ppCz1TAEvU1Uf66qvid89rbem3wCzQ=
 github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.7.5 h1:M5/B8JUaCI8+9QD+u3S/f4YHpvqE9RpSkV3rf0Iks2w=
 github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.7.5/go.mod h1:Bktzci1bwdbpuLiu3AOksiNPMl/LLKmX1TWmqp2xbvs=
-github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.10.17 h1:x187MqiHwBGjMGAed8Y8K1VGuCtFvQvXb24r+bwmSdo=
-github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.10.17/go.mod h1:mC9qMbA6e1pwEq6X3zDGtZRXMG2YaElJkbJlMVHLs5I=
+github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.10.18 h1:QnGWwpTiazs1Y74RwA8VUfAtKuJQbnQ98DBFnSywj0s=
+github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.10.18/go.mod h1:gWOI6Vb0Bbmsi0Ejvtt3RkwKpdoa/SOYTVUlzqYPRLc=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.18 h1:vvbXsA2TVO80/KT7ZqCbx934dt6PY+vQ8hZpUZ/cpYg=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.18/go.mod h1:m2JJHledjBGNMsLOF1g9gbAxprzq3KjC8e4lxtn+eWg=
 github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.18.18 h1:OS2e0SKqsU2LiJPqL8u9x41tKc6MMEHrWjLVLn3oysg=
