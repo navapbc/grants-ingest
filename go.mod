@@ -7,7 +7,7 @@ toolchain go1.24.1
 require (
 	github.com/DataDog/datadog-lambda-go v1.23.0
 	github.com/Netflix/go-env v0.1.2
-	github.com/alecthomas/kong v1.12.0
+	github.com/alecthomas/kong v1.12.1
 	github.com/aws/aws-lambda-go v1.49.0
 	github.com/aws/aws-sdk-go-v2 v1.36.6
 	github.com/aws/aws-sdk-go-v2/config v1.29.18
