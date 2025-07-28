@@ -16,7 +16,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.87
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.85
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.44.0
-	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.26.0
+	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.26.1
 	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.41.0
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.84.1
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.38.10
