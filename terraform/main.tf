@@ -37,6 +37,7 @@ provider "datadog" {
   validate = var.datadog_api_key != "" && var.datadog_app_key != "" ? true : false
   api_key  = var.datadog_api_key
   app_key  = var.datadog_app_key
+  api_url  = var.datadog_api_url
 }
 
 data "aws_region" "current" {}

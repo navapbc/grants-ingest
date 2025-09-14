@@ -1,6 +1,7 @@
 namespace                             = "grants_ingest"
 environment                           = "staging"
 ssm_deployment_parameters_path_prefix = "/grants_ingest/deploy-config"
+datadog_api_url                       = "https://api.us5.datadoghq.com/"
 datadog_enabled                       = false
 lambda_binaries_autobuild             = false
 lambda_default_log_retention_in_days  = 30
