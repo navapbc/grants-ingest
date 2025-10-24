@@ -12,11 +12,11 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.39.4
 	github.com/aws/aws-sdk-go-v2/config v1.31.14
 	github.com/aws/aws-sdk-go-v2/credentials v1.18.18
-	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.20.16
-	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.8.16
+	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.20.18
+	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.8.18
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.19.14
-	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.52.0
-	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.31.1
+	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.52.2
+	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.31.3
 	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.45.6
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.88.6
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.42.11
@@ -65,7 +65,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.10 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.11.10 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.11.11 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.10 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.10 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.27.4 // indirect
