@@ -31,7 +31,7 @@ require (
 	github.com/stretchr/testify v1.11.1
 	github.com/willabides/kongplete v0.4.0
 	github.com/xuri/excelize/v2 v2.10.0
-	gopkg.in/DataDog/dd-trace-go.v1 v1.74.7
+	gopkg.in/DataDog/dd-trace-go.v1 v1.74.8
 )
 
 require (
