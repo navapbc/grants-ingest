@@ -10,11 +10,11 @@ require (
 	github.com/alecthomas/kong v1.12.1
 	github.com/aws/aws-lambda-go v1.50.0
 	github.com/aws/aws-sdk-go-v2 v1.39.6
-	github.com/aws/aws-sdk-go-v2/config v1.31.19
+	github.com/aws/aws-sdk-go-v2/config v1.31.20
 	github.com/aws/aws-sdk-go-v2/credentials v1.18.24
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.20.23
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.8.23
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.20.6
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.20.7
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.52.6
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.32.4
 	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.45.11
