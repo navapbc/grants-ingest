@@ -19,7 +19,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.32.5
 	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.45.13
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.92.0
-	github.com/aws/aws-sdk-go-v2/service/sqs v1.42.15
+	github.com/aws/aws-sdk-go-v2/service/sqs v1.42.16
 	github.com/aws/smithy-go v1.23.2
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/go-kit/log v0.2.1
