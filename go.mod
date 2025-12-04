@@ -14,11 +14,11 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.3
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.20.26
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.8.26
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.20.12
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.20.13
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.53.2
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.32.6
 	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.45.15
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.92.1
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.93.0
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.42.18
 	github.com/aws/smithy-go v1.24.0
 	github.com/cenkalti/backoff/v4 v4.3.0
@@ -57,17 +57,17 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/aws/aws-sdk-go v1.50.9 // indirect
-	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.3 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.4 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.15 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.15 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.15 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.4 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.5 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.11.14 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.15 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.14 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.27.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kms v1.27.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sfn v1.26.4 // indirect
