@@ -8,7 +8,7 @@ require (
 	github.com/DataDog/datadog-lambda-go v1.29.0
 	github.com/Netflix/go-env v0.1.2
 	github.com/alecthomas/kong v1.13.0
-	github.com/aws/aws-lambda-go v1.50.0
+	github.com/aws/aws-lambda-go v1.51.0
 	github.com/aws/aws-sdk-go-v2 v1.41.0
 	github.com/aws/aws-sdk-go-v2/config v1.32.4
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.4
