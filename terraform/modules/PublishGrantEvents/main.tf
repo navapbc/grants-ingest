@@ -93,7 +93,7 @@ module "lambda_function" {
   }
 
   handler       = "bootstrap"
-  runtime       = "provided.al2"
+  runtime       = "provided.al2023"
   architectures = [var.lambda_arch]
   publish       = true
   layers        = var.lambda_layer_arns
