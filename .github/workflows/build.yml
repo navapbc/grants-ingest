@@ -66,10 +66,10 @@ jobs:
             storage.googleapis.com:443
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
-          show-progress: 'false'
-          persist-credentials: 'false'
+          show-progress: "false"
+          persist-credentials: "false"
           ref: ${{ inputs.ref }}
-      - uses: actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5 # v5.5.0
+      - uses: actions/setup-go@v6.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           go-version-file: go.mod
@@ -121,7 +121,7 @@ jobs:
         with:
           name: ${{ needs.prepare.outputs.sources-key }}
           path: .
-      - uses: actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5 # v5.5.0
+      - uses: actions/setup-go@v6.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           go-version-file: go.mod
@@ -240,7 +240,7 @@ jobs:
         with:
           name: ${{ needs.prepare.outputs.sources-key }}
           path: .
-      - uses: actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5 # v5.5.0
+      - uses: actions/setup-go@v6.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           go-version-file: go.mod
