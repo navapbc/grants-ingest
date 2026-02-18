@@ -52,10 +52,20 @@ jobs:
       sources-key: ${{ env.SOURCES_KEY }}
       sources-path: ${{ env.SOURCES_PATH }}
     steps:
-      - uses: step-security/harden-runner # v2.13.0
+      - uses: step-security/harden-runner@v2.14.2 # v2.13.0
         with:
           disable-sudo: true
           egress-policy: audit
+          allowed-endpoints: >
+            actions-results-receiver-production.githubapp.com:443
+            api.github.com:443
+            github.com:443
+            objects.githubusercontent.com:443
+            proxy.golang.org:443
+            sum.golang.org:443
+            raw.githubusercontent.com:443
+            storage.googleapis.com:443
+            release-assets.githubusercontent.com:443
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           show-progress: "false"
@@ -95,10 +105,20 @@ jobs:
       artifacts-path: ${{ env.ARTIFACTS_PATH }}
       checksums-sha256: ${{ steps.final-checksums.outputs.sha256 }}
     steps:
-      - uses: step-security/harden-runner # v2.13.0
+      - uses: step-security/harden-runner@2.14.2 # v2.13.0
         with:
           disable-sudo: true
           egress-policy: audit
+          allowed-endpoints: >
+            actions-results-receiver-production.githubapp.com:443
+            api.github.com:443
+            github.com:443
+            objects.githubusercontent.com:443
+            proxy.golang.org:443
+            sum.golang.org:443
+            raw.githubusercontent.com:443
+            storage.googleapis.com:443
+            release-assets.githubusercontent.com:443
       - name: Restore Go build sources
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
@@ -205,10 +225,20 @@ jobs:
       artifacts-path: ${{ env.ARTIFACTS_PATH }}
       checksums-sha256: ${{ steps.final-checksums.outputs.sha256 }}
     steps:
-      - uses: step-security/harden-runner # v2.13.0
+      - uses: step-security/harden-runner@v2.14.2 # v2.13.0
         with:
           disable-sudo: true
           egress-policy: audit
+          allowed-endpoints: >
+            actions-results-receiver-production.githubapp.com:443
+            api.github.com:443
+            github.com:443
+            objects.githubusercontent.com:443
+            proxy.golang.org:443
+            sum.golang.org:443
+            raw.githubusercontent.com:443
+            storage.googleapis.com:443
+            release-assets.githubusercontent.com:443
       - name: Restore Go build sources
         uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
