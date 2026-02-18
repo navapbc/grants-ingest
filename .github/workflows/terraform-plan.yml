@@ -112,6 +112,8 @@ jobs:
             objects.githubusercontent.com:443
             registry.terraform.io:443
             releases.hashicorp.com:443
+            hosted-compute-watchdog-prod-eus-01.githubapp.com:443
+            release-assets.githubusercontent.com:443
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           ref: ${{ inputs.ref }}
