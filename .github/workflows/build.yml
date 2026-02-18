@@ -1,25 +1,6 @@
 name: Build
 
 on:
-  push:
-    branches:
-      mqwebster/lambda-updates
-  workflow_dispatch:
-    inputs:
-      ref:
-        type: string
-        default: main
-        required: true
-      artifacts-retention-days:
-        description: Number of days to retain build artifacts
-        type: number
-        default: 90
-      build-cli:
-        type: boolean
-        default: false
-      build-lambdas:
-        type: boolean
-        default: true
   workflow_call:
     inputs:
       ref:
@@ -34,7 +15,7 @@ on:
         default: false
       build-lambdas:
         type: boolean
-        default: true
+        default: false
     outputs:
       build-cli-result:
         value: ${{ jobs.build-cli.result }}
