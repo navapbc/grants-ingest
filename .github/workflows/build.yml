@@ -19,7 +19,7 @@ on:
         default: false
       build-lambdas:
         type: boolean
-        default: false
+        default: true
   workflow_call:
     inputs:
       ref:
@@ -34,7 +34,7 @@ on:
         default: false
       build-lambdas:
         type: boolean
-        default: false
+        default: true
     outputs:
       build-cli-result:
         value: ${{ jobs.build-cli.result }}
