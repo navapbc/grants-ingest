@@ -9,7 +9,7 @@ require (
 	github.com/Netflix/go-env v0.1.2
 	github.com/alecthomas/kong v1.14.0
 	github.com/aws/aws-lambda-go v1.52.0
-	github.com/aws/aws-sdk-go-v2 v1.41.1
+	github.com/aws/aws-sdk-go-v2 v1.41.2
 	github.com/aws/aws-sdk-go-v2/config v1.32.9
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.9
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.20.32
