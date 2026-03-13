@@ -74,8 +74,8 @@ github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.8.34 h1:/187PQzLl/ah
 github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.8.34/go.mod h1:TVFIqN6SzGCqOKH/1zJGTqW+TKsovaHUsPd+ZUMxBBs=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.19 h1:INUvJxmhdEbVulJYHI061k4TVuS3jzzthNvjqvVvTKM=
 github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.19/go.mod h1:FpZN2QISLdEBWkayloda+sZjVJL+e9Gl0k1SyTgcswU=
-github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.6 h1:xuOfOJR0SPBrHhzAXZ5c+8i1KyJ+aUVJ2cl8DT16qH4=
-github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.6/go.mod h1:rUVOV4y5upo55JxPss99p9FaN9BvqUjFgE/N54tvLuE=
+github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.7 h1:U1bRnGCibeRlgswAtU0OjsIy+3yQZGBJQoRvTz2m47k=
+github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.7/go.mod h1:o468HQR7wpjYUtIHLk7hMnk+1wya63m32Z4DnGqQJe0=
 github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.19 h1:/sECfyq2JTifMI2JPyZ4bdRN77zJmr6SrS1eL3augIA=
 github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.19/go.mod h1:dMf8A5oAqr9/oxOfLkC/c2LU/uMcALP0Rgn2BD5LWn0=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.19 h1:AWeJMk33GTBf6J20XJe6qZoRSJo0WfUhsMdUKhoODXE=
@@ -104,8 +104,8 @@ github.com/aws/aws-sdk-go-v2/service/kinesis v1.27.4 h1:Oe8awBiS/iitcsRJB5+DHa3i
 github.com/aws/aws-sdk-go-v2/service/kinesis v1.27.4/go.mod h1:RCZCSFbieSgNG1RKegO26opXV4EXyef/vNBVJsUyHuw=
 github.com/aws/aws-sdk-go-v2/service/kms v1.27.9 h1:W9PbZAZAEcelhhjb7KuwUtf+Lbc+i7ByYJRuWLlnxyQ=
 github.com/aws/aws-sdk-go-v2/service/kms v1.27.9/go.mod h1:2tFmR7fQnOdQlM2ZCEPpFnBIQD1U8wmXmduBgZbOag0=
-github.com/aws/aws-sdk-go-v2/service/s3 v1.96.4 h1:4ExZyubQ6LQQVuF2Qp9OsfEvsTdAWh5Gfwf6PgIdLdk=
-github.com/aws/aws-sdk-go-v2/service/s3 v1.96.4/go.mod h1:NF3JcMGOiARAss1ld3WGORCw71+4ExDD2cbbdKS5PpA=
+github.com/aws/aws-sdk-go-v2/service/s3 v1.97.0 h1:zyKY4OxzUImu+DigelJI9o49QQv8CjREs5E1CywjtIA=
+github.com/aws/aws-sdk-go-v2/service/s3 v1.97.0/go.mod h1:NF3JcMGOiARAss1ld3WGORCw71+4ExDD2cbbdKS5PpA=
 github.com/aws/aws-sdk-go-v2/service/sfn v1.26.4 h1:LM5AENhJDUd3fHP5NI8hk1jR+Io54/TmEQCWkRmfJE8=
 github.com/aws/aws-sdk-go-v2/service/sfn v1.26.4/go.mod h1:YYRs4t+xgLXx9lBMW8Rs6wF61RtEOFrKa8hNMgq6DvI=
 github.com/aws/aws-sdk-go-v2/service/signin v1.0.7 h1:Y2cAXlClHsXkkOvWZFXATr34b0hxxloeQu/pAZz2row=
