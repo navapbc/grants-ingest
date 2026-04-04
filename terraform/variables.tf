@@ -184,6 +184,12 @@ variable "datadog_metrics_metadata" {
   default = {}
 }
 
+variable "datadog_api_url" {
+  description = "Which Datadog API endpoint to use"
+  type        = string
+  default     = "https://api.datadoghq.com"
+}
+
 variable "lambda_default_log_retention_in_days" {
   description = "Default number of days to retain Lambda execution logs."
   type        = number
