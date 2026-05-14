@@ -7,7 +7,7 @@ terraform {
     }
     datadog = {
       source  = "DataDog/datadog"
-      version = "~> 3.35.0"
+      version = "~> 4.9.0"
     }
     http = {
       source  = "hashicorp/http"
